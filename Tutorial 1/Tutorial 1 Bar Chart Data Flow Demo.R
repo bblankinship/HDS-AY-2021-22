@@ -88,7 +88,7 @@ mortality <- mortality_raw %>%
          NumberOfDeaths) %>%
   # filter out aggregate ALL responses from the data 
   # HB Code S92000003 is for all of Scotland
-  # under 75 years is another aggregate level variable including all people under 65 
+  # under 75 years is another aggregate level variable including all people under 75 
   filter(Sex != "All" & AgeGroup != "All" & HBName != "S92000003" & AgeGroup != "under75 years")
 
 ## we could also create a single data frame combining all 3 
