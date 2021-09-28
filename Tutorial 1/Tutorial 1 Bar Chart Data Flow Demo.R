@@ -156,6 +156,6 @@ activity %>%
   facet_wrap(~ Diagnosis) + 
   theme_dark() + 
   labs(title = "Heart Disease Activity \nby Sex and Diagnosis") + 
-  ylab("Number of Discharges")
+  ylab("Number of Discharges") 
 
 
