@@ -18,7 +18,7 @@ mortality_raw <- read_csv(here::here("./data/heartdiseaseMortalitybyHB.csv"))
 ### so it is best to specify you want to use here from the here package. Loading the libraries with here last will also avoid this problem  
 
 # for your own practice, the webpage to download the mortality data is https://www.opendata.nhs.scot/dataset/scottish-heart-disease-statistics/resource/dc0512a8-eb49-43b9-84f1-17ef95365d57
-# mortality_raw <- read_csv("https://www.opendata.nhs.scot/dataset/scottish-heart-disease-statistics/resource/dc0512a8-eb49-43b9-84f1-17ef95365d57")
+# mortality_raw <- read_csv("https://www.opendata.nhs.scot/dataset/0e17f3fc-9429-48aa-b1ba-2b7e55688253/resource/dc0512a8-eb49-43b9-84f1-17ef95365d57/download/hd_mortalitybyhbr.csv")
 
 # load data from a website 
 activity_raw <- read_csv("https://www.opendata.nhs.scot/dataset/0e17f3fc-9429-48aa-b1ba-2b7e55688253/resource/748e2065-b447-4b75-99bd-f17f26f3eaef/download/hd_activitybyhbr.csv")
