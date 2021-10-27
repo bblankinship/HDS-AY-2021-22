@@ -35,10 +35,20 @@ LePcor <- cor.test(mydata$lifeExp, mydata$pop)
 
 When making tables, it is a good idea to use the `kable()` function from the `knitr` package to produce nice looking tables rather than the usual r output. 
 
-```{r table_data}
+Compare this table output: 
+
+```{r table-data-plain}
 mydata %>% 
   select(-pop) %>% 
-  sample_n(10) %>% 
+  sample_n(10) 
+```
+
+To this one: 
+
+```{r table-data}
+mydata %>% 
+  select(-pop) %>% 
+  sample_n(10) %>%
   kable()
 ```
 
